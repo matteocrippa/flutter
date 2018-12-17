@@ -49,6 +49,13 @@ class SystemChannels {
   ///  * `HapticFeedback.vibrate`: Triggers a system-default haptic response.
   ///    See [HapticFeedback.vibrate].
   ///
+  ///  * `Nfc.read`: Triggers system service to start a reading session for NFC.
+  ///    Returns a future with the content of the NFC discovered as a [String].
+  ///    See [Nfc.read].
+  ///
+  ///  * `Nfc.stop`: Invalidates a system instance of discovering for NFC.
+  ///    See [Nfc.stop].
+  ///
   ///  * `SystemSound.play`: Triggers a system audio effect. The argument must
   ///    be a [String] describing the desired effect; currently only `click` is
   ///    supported. See [SystemSound.play].
