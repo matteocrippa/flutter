@@ -13,6 +13,7 @@ class NFC {
   NFC._();
   
   /// Start a NFC reading session.
+  /// Returns a String once discovered.
   ///
   /// On iOS it uses `NFCNDEFReaderSession` to setup the NFC reading session.
   ///
@@ -23,6 +24,7 @@ class NFC {
   }
 
   /// Stop a NFC reading session if still active.
+  /// Retuns boolean with status of request to close the discovery service.
   ///
   /// On iOS it invalidates the ReaderSession delegate.
   ///
