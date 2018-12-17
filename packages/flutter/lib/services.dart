@@ -17,6 +17,7 @@ export 'src/services/font_loader.dart';
 export 'src/services/haptic_feedback.dart';
 export 'src/services/message_codec.dart';
 export 'src/services/message_codecs.dart';
+export 'src/services/nfc.dart';
 export 'src/services/platform_channel.dart';
 export 'src/services/platform_messages.dart';
 export 'src/services/platform_views.dart';
